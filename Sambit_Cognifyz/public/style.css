@@ -1,0 +1,71 @@
+/* Style the body */
+body 
+{
+  font-family: Arial, sans-serif;
+  border: 2px solid black;
+  text-align: center;  
+  padding: 20px;
+}
+
+header{
+  border: 2px solid green;
+  border-top-right-radius: 15rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 15rem ;
+  opacity: 1.2;
+}
+h1 
+{
+  text-align: center;  
+  margin-bottom: 20px;
+  color: red; 
+}
+
+main{
+  margin: 5px;
+  border: 2px solid black;
+ border-radius:2% ;  
+}
+h2{
+  color: green;
+}
+
+/* Style the form */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+/* Style the labels */
+label {
+  margin-top: 10px;
+}
+
+/* Style the input fields */
+input {
+  padding: 10px;
+  margin-top: 5px;
+  width: 100%;
+  box-sizing: border-box; 
+}
+
+/* Style the submit button */
+button
+ {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+
+}
+
+
+button:hover 
+{
+  background-color:blue; 
+}
